@@ -9,6 +9,6 @@ import java.time.LocalDateTime;
 @Data
 @Builder
 public class DateDTO {
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy:MM:dd:hh:mm:ss:ms")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy:MM:dd'##':hh:mm:ss:ms")
     private LocalDateTime localDateTime;
 }
